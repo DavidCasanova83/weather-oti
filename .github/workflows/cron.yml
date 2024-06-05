@@ -31,8 +31,8 @@ jobs:
           git add public/data/weatherPeriods.json
           git commit -m 'Update weather data' || echo "No changes to commit"
           git push || echo "No changes to push"
-          - name: Install lftp
-          run: sudo apt-get install lftp
+      - name: Install lftp
+        run: sudo apt-get install lftp
       - name: Deploy to SFTP
         env:
           SFTP_HOST: ${{ secrets.SFTP_HOST }}
