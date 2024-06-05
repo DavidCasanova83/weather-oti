@@ -2,7 +2,7 @@
   <div>
     <h1>Météo</h1>
     <div v-for="(cityForecasts, insee) in forecasts" :key="insee">
-      <h2>Météo à {{ cityForecasts[0]?.city.name }}</h2>
+      <h2>Météo à {{ cityForecasts[0]?.city.name }} !!</h2>
       <div v-if="cityForecasts.length">
         <h3>Prévisions Météo</h3>
         <div v-for="dayForecast in cityForecasts" :key="dayForecast.update">
