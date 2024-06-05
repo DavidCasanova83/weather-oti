@@ -31,11 +31,12 @@ jobs:
           git add public/data/weatherPeriods.json
           git commit -m 'Update weather data' || echo "No changes to commit"
           git push || echo "No changes to push"
+          - name: Install lftp
+          run: sudo apt-get install lftp
       - name: Deploy to SFTP
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
-        with:
-          server: ${{ secrets.SFTP_HOST }}
-          username: ${{ secrets.SFTP_USER }}
-          password: ${{ secrets.SFTP_PASSWORD }}
-          local-dir: public/data/weatherPeriods.json
-          server-dir: /home/planverdon/public_html/meteo/meteo/data/weatherPeriods.json
+        env:
+          SFTP_HOST: ${{ secrets.SFTP_HOST }}
+          SFTP_USER: ${{ secrets.SFTP_USER }}
+          SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+        run: |
+          lftp -c "set ftp:ssl-allow no; open -u $SFTP_USER,$SFTP_PASSWORD $SFTP_HOST; put -O /home/planverdon/public_html/meteo/data/ public/data/weatherPeriods.json"
