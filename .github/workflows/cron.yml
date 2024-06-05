@@ -28,7 +28,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/weatherPeriods.json
+          git add public/data/weatherPeriods.json
           git commit -m 'Update weather data' || echo "No changes to commit"
           git push || echo "No changes to push"
       - name: Deploy to SFTP
@@ -37,5 +37,5 @@ jobs:
           server: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASSWORD }}
-          local-dir: dist
-          server-dir: /home/planverdon/public_html/meteo
+          local-dir: public/data/weatherPeriods.json
+          server-dir: /home/planverdon/public_html/meteo/meteo/data/weatherPeriods.json
