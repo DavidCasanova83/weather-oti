@@ -43,7 +43,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y lftp
-          lftp -f "
+          lftp -e "
+          set sftp:auto-confirm yes
           open sftp://$SFTP_USER:$SFTP_PASSWORD@$SFTP_HOST
           put -O /home/planverdon/public_html/meteo/meteo/data/ public/data/weatherPeriods.json
           bye
