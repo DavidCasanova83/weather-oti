@@ -1,0 +1,32 @@
+name: Fetch Weather Data
+
+on:
+  schedule:
+    - cron: "0 0,8,16 * * *" # Exécution à 00h, 08h et 16h chaque jour
+  push:
+    branches:
+      - main
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - name: Install dependencies
+        run: npm install
+      - name: Run script
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+        run: node saveData.js
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/meteo.json
+          git commit -m 'Update weather data'
+          git push
