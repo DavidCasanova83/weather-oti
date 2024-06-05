@@ -30,6 +30,7 @@ const saveData = async () => {
   // const inseeCodes = ['04008' ,'04061', '04173', '04144', '04076']; // Ajouter d'autres codes INSEE ici
   // Ajouter d'autres codes INSEE ici
   const allForecasts = { Weather: {} };
+  const now = new Date().toISOString();
 
   for (const insee of inseeCodes) {
     const forecasts = [];
@@ -43,6 +44,9 @@ const saveData = async () => {
 
     allForecasts.Weather[insee] = forecasts;
   }
+
+
+  allForecasts.retrieved_at = now;  // Ajouter la date et l'heure de récupération des données
 
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = dirname(__filename);
