@@ -3,9 +3,5 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
   plugins: [vue()],
-  server: {
-    fs: {
-      allow: ['..'] // Pour permettre l'accès au dossier parent où se trouve data
-    }
-  }
+  base: '/meteo', // généralement, vous pouvez laisser ce champ tel quel pour Vercel
 });

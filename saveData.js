@@ -46,7 +46,14 @@ const saveData = async () => {
 
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = dirname(__filename);
-  const filePath = path.join(__dirname, 'data', 'weatherPeriods.json');
+  const publicDir = path.join(__dirname, 'public', 'data');
+
+  // Assurez-vous que le dossier public/data existe
+  if (!fs.existsSync(publicDir)) {
+    fs.mkdirSync(publicDir, { recursive: true });
+  }
+
+  const filePath = path.join(publicDir, 'weatherPeriods.json');
 
   fs.writeFileSync(filePath, JSON.stringify(allForecasts, null, 2));
   console.log('Weather data saved successfully!');

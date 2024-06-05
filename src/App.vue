@@ -45,7 +45,7 @@ export default {
 
     const fetchWeatherForecast = async () => {
       try {
-        const response = await axios.get("/data/weatherPeriods.json");
+        const response = await axios.get("meteo/data/weatherPeriods.json");
         forecasts.value = response.data.Weather;
       } catch (error) {
         console.error("Error fetching weather data:", error);
