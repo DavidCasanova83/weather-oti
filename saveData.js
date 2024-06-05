@@ -26,8 +26,8 @@ const fetchWeatherForecast = async (insee, day) => {
 };
 
 const saveData = async () => {
-  const inseeCodes = ['04008'];
-  // const inseeCodes = ['04008' ,'04061', '04173', '04144', '04076']; // Ajouter d'autres codes INSEE ici
+  // const inseeCodes = ['04008'];
+  const inseeCodes = ['04008' ,'04061', '04173', '04144', '04076']; // Ajouter d'autres codes INSEE ici
   // Ajouter d'autres codes INSEE ici
   const allForecasts = { Weather: {} };
 
