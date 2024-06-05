@@ -3,7 +3,6 @@ name: Fetch Weather Data
 on:
   schedule:
     - cron: "16 8,12,18 * * *" # Exécution à 08h16, 12h16, et 18h16 UTC chaque jour
-    #- cron: "0 0,8,19 * * *" # Exécution à 00h, 08h et 16h chaque jour
   push:
     branches:
       - master
@@ -14,16 +13,20 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "20"
+
       - name: Install dependencies
         run: npm install
+
       - name: Run script
         env:
           API_TOKEN: ${{ secrets.API_TOKEN }}
         run: node saveData.js
+
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
@@ -31,12 +34,17 @@ jobs:
           git add public/data/weatherPeriods.json
           git commit -m 'Update weather data' || echo "No changes to commit"
           git push || echo "No changes to push"
-      - name: Install lftp
-        run: sudo apt-get install lftp
-      - name: Deploy to SFTP
+
+      - name: Upload to SFTP
         env:
           SFTP_HOST: ${{ secrets.SFTP_HOST }}
           SFTP_USER: ${{ secrets.SFTP_USER }}
           SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
         run: |
-          lftp -c "set ftp:ssl-allow no; open -u $SFTP_USER,$SFTP_PASSWORD $SFTP_HOST; put -O /home/planverdon/public_html/meteo/data/ public/data/weatherPeriods.json"
+          sudo apt-get update
+          sudo apt-get install -y lftp
+          lftp -f "
+          open sftp://$SFTP_USER:$SFTP_PASSWORD@$SFTP_HOST
+          put -O /home/planverdon/public_html/meteo/meteo/data/ public/data/weatherPeriods.json
+          bye
+          "
