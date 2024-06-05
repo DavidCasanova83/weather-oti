@@ -2,7 +2,8 @@ name: Fetch Weather Data
 
 on:
   schedule:
-    - cron: "0 0,8,19 * * *" # Exécution à 00h, 08h et 16h chaque jour
+    - cron: "*/10 * * * *" # Exécution toutes les 10 minutes
+    #- cron: "0 0,8,19 * * *" # Exécution à 00h, 08h et 16h chaque jour
   push:
     branches:
       - master
