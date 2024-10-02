@@ -10,7 +10,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2024-10-02T10:12:51+02:00",
+        "update": "2024-10-02T17:11:30+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -20,19 +20,19 @@
             "day": 0,
             "period": 0,
             "datetime": "2024-10-02T02:00:00+0200",
-            "temp2m": 13,
-            "wind10m": 15,
-            "gust10m": 45,
-            "dirwind10m": 255,
-            "rr10": 5.3,
-            "rr1": 13,
-            "probarain": 100,
-            "weather": 212,
+            "temp2m": 12,
+            "wind10m": 10,
+            "gust10m": 40,
+            "dirwind10m": 258,
+            "rr10": 1.1,
+            "rr1": 2.5,
+            "probarain": 80,
+            "weather": 211,
             "probafrost": 0,
-            "probafog": 30,
+            "probafog": 40,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 63
+            "gustx": 51
           },
           {
             "insee": "04008",
@@ -44,17 +44,17 @@
             "datetime": "2024-10-02T08:00:00+0200",
             "temp2m": 12,
             "wind10m": 15,
-            "gust10m": 45,
+            "gust10m": 41,
             "dirwind10m": 259,
-            "rr10": 2.1,
-            "rr1": 4.1,
-            "probarain": 100,
-            "weather": 210,
+            "rr10": 2.4,
+            "rr1": 4.5,
+            "probarain": 80,
+            "weather": 40,
             "probafrost": 0,
             "probafog": 10,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 55
+            "gustx": 52
           },
           {
             "insee": "04008",
@@ -64,19 +64,19 @@
             "day": 0,
             "period": 2,
             "datetime": "2024-10-02T14:00:00+0200",
-            "temp2m": 16,
+            "temp2m": 15,
             "wind10m": 20,
-            "gust10m": 46,
-            "dirwind10m": 289,
+            "gust10m": 44,
+            "dirwind10m": 285,
             "rr10": 0,
             "rr1": 0,
             "probarain": 10,
-            "weather": 2,
+            "weather": 3,
             "probafrost": 0,
             "probafog": 0,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 46
+            "gustx": 44
           },
           {
             "insee": "04008",
@@ -86,19 +86,19 @@
             "day": 0,
             "period": 3,
             "datetime": "2024-10-02T20:00:00+0200",
-            "temp2m": 11,
-            "wind10m": 10,
-            "gust10m": 43,
-            "dirwind10m": 288,
+            "temp2m": 12,
+            "wind10m": 15,
+            "gust10m": 42,
+            "dirwind10m": 285,
             "rr10": 0,
             "rr1": 0,
             "probarain": 10,
-            "weather": 3,
+            "weather": 4,
             "probafrost": 0,
-            "probafog": 10,
+            "probafog": 0,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 43
+            "gustx": 42
           }
         ]
       },
@@ -111,7 +111,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2024-10-02T10:12:51+02:00",
+        "update": "2024-10-02T17:11:30+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -121,19 +121,19 @@
             "day": 1,
             "period": 0,
             "datetime": "2024-10-03T02:00:00+0200",
-            "temp2m": 10,
+            "temp2m": 9,
             "wind10m": 5,
             "gust10m": 25,
-            "dirwind10m": 59,
-            "rr10": 0.2,
-            "rr1": 0.2,
-            "probarain": 50,
-            "weather": 10,
+            "dirwind10m": 356,
+            "rr10": 2.7,
+            "rr1": 5.3,
+            "probarain": 100,
+            "weather": 210,
             "probafrost": 0,
-            "probafog": 40,
+            "probafog": 30,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 27
+            "gustx": 29
           },
           {
             "insee": "04008",
@@ -143,16 +143,16 @@
             "day": 1,
             "period": 1,
             "datetime": "2024-10-03T08:00:00+0200",
-            "temp2m": 9,
-            "wind10m": 5,
-            "gust10m": 24,
-            "dirwind10m": 306,
-            "rr10": 7,
-            "rr1": 14,
+            "temp2m": 8,
+            "wind10m": 10,
+            "gust10m": 25,
+            "dirwind10m": 360,
+            "rr10": 4.7,
+            "rr1": 9.4,
             "probarain": 100,
             "weather": 211,
             "probafrost": 0,
-            "probafog": 40,
+            "probafog": 20,
             "probawind70": 0,
             "probawind100": 0,
             "gustx": 31
@@ -165,19 +165,19 @@
             "day": 1,
             "period": 2,
             "datetime": "2024-10-03T14:00:00+0200",
-            "temp2m": 15,
+            "temp2m": 14,
             "wind10m": 10,
-            "gust10m": 32,
-            "dirwind10m": 290,
-            "rr10": 2.3,
-            "rr1": 4.1,
+            "gust10m": 31,
+            "dirwind10m": 289,
+            "rr10": 0.7,
+            "rr1": 0.9,
             "probarain": 90,
             "weather": 40,
             "probafrost": 0,
-            "probafog": 20,
+            "probafog": 10,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 32
+            "gustx": 31
           },
           {
             "insee": "04008",
@@ -189,17 +189,17 @@
             "datetime": "2024-10-03T20:00:00+0200",
             "temp2m": 8,
             "wind10m": 10,
-            "gust10m": 28,
-            "dirwind10m": 330,
-            "rr10": 0,
-            "rr1": 0,
+            "gust10m": 27,
+            "dirwind10m": 348,
+            "rr10": 0.1,
+            "rr1": 0.1,
             "probarain": 40,
             "weather": 40,
             "probafrost": 0,
-            "probafog": 20,
+            "probafog": 10,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 28
+            "gustx": 27
           }
         ]
       },
@@ -212,7 +212,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2024-10-02T10:12:51+02:00",
+        "update": "2024-10-02T17:11:30+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -313,7 +313,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2024-10-02T10:12:51+02:00",
+        "update": "2024-10-02T17:11:30+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -414,7 +414,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2024-10-02T10:12:51+02:00",
+        "update": "2024-10-02T17:11:30+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -515,7 +515,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2024-10-02T10:12:51+02:00",
+        "update": "2024-10-02T17:11:30+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -616,7 +616,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2024-10-02T10:12:51+02:00",
+        "update": "2024-10-02T17:11:30+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -717,7 +717,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2024-10-02T10:12:51+02:00",
+        "update": "2024-10-02T17:11:30+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -811,5 +811,5 @@
       }
     ]
   },
-  "retrieved_at": "2024-10-02T12:51:56.773Z"
+  "retrieved_at": "2024-10-02T18:37:21.260Z"
 }
