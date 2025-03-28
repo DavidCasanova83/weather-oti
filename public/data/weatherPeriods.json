@@ -10,7 +10,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-03-28T09:13:09+01:00",
+        "update": "2025-03-28T16:12:40+01:00",
         "forecast": [
           {
             "insee": "04008",
@@ -22,17 +22,17 @@
             "datetime": "2025-03-28T01:00:00+0100",
             "temp2m": 3,
             "wind10m": 5,
-            "gust10m": 28,
-            "dirwind10m": 77,
+            "gust10m": 26,
+            "dirwind10m": 78,
             "rr10": 0,
             "rr1": 0,
             "probarain": 0,
             "weather": 1,
             "probafrost": 10,
-            "probafog": 30,
+            "probafog": 20,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 28
+            "gustx": 26
           },
           {
             "insee": "04008",
@@ -44,17 +44,17 @@
             "datetime": "2025-03-28T07:00:00+0100",
             "temp2m": 3,
             "wind10m": 15,
-            "gust10m": 43,
-            "dirwind10m": 291,
+            "gust10m": 45,
+            "dirwind10m": 288,
             "rr10": 0,
             "rr1": 0,
             "probarain": 0,
-            "weather": 1,
+            "weather": 2,
             "probafrost": 10,
-            "probafog": 20,
+            "probafog": 10,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 43
+            "gustx": 45
           },
           {
             "insee": "04008",
@@ -66,17 +66,17 @@
             "datetime": "2025-03-28T13:00:00+0100",
             "temp2m": 13,
             "wind10m": 20,
-            "gust10m": 45,
-            "dirwind10m": 295,
+            "gust10m": 46,
+            "dirwind10m": 293,
             "rr10": 0,
             "rr1": 0,
             "probarain": 10,
-            "weather": 1,
-            "probafrost": 10,
+            "weather": 2,
+            "probafrost": 0,
             "probafog": 0,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 45
+            "gustx": 46
           },
           {
             "insee": "04008",
@@ -88,17 +88,17 @@
             "datetime": "2025-03-28T19:00:00+0100",
             "temp2m": 7,
             "wind10m": 15,
-            "gust10m": 41,
-            "dirwind10m": 355,
+            "gust10m": 39,
+            "dirwind10m": 9,
             "rr10": 0,
             "rr1": 0,
             "probarain": 10,
-            "weather": 0,
+            "weather": 1,
             "probafrost": 10,
             "probafog": 0,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 41
+            "gustx": 39
           }
         ]
       },
@@ -111,7 +111,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-03-28T09:13:09+01:00",
+        "update": "2025-03-28T16:12:40+01:00",
         "forecast": [
           {
             "insee": "04008",
@@ -124,7 +124,7 @@
             "temp2m": 3,
             "wind10m": 15,
             "gust10m": 38,
-            "dirwind10m": 6,
+            "dirwind10m": 3,
             "rr10": 0,
             "rr1": 0,
             "probarain": 10,
@@ -145,8 +145,8 @@
             "datetime": "2025-03-29T07:00:00+0100",
             "temp2m": 3,
             "wind10m": 15,
-            "gust10m": 45,
-            "dirwind10m": 19,
+            "gust10m": 39,
+            "dirwind10m": 20,
             "rr10": 0,
             "rr1": 0,
             "probarain": 10,
@@ -155,7 +155,7 @@
             "probafog": 0,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 45
+            "gustx": 39
           },
           {
             "insee": "04008",
@@ -167,8 +167,8 @@
             "datetime": "2025-03-29T13:00:00+0100",
             "temp2m": 12,
             "wind10m": 15,
-            "gust10m": 55,
-            "dirwind10m": 29,
+            "gust10m": 41,
+            "dirwind10m": 56,
             "rr10": 0,
             "rr1": 0,
             "probarain": 20,
@@ -177,7 +177,7 @@
             "probafog": 10,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 55
+            "gustx": 41
           },
           {
             "insee": "04008",
@@ -188,9 +188,9 @@
             "period": 3,
             "datetime": "2025-03-29T19:00:00+0100",
             "temp2m": 6,
-            "wind10m": 15,
-            "gust10m": 53,
-            "dirwind10m": 26,
+            "wind10m": 10,
+            "gust10m": 32,
+            "dirwind10m": 250,
             "rr10": 0,
             "rr1": 0,
             "probarain": 20,
@@ -199,7 +199,7 @@
             "probafog": 10,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 53
+            "gustx": 32
           }
         ]
       },
@@ -212,7 +212,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-03-28T09:13:09+01:00",
+        "update": "2025-03-28T16:12:40+01:00",
         "forecast": [
           {
             "insee": "04008",
@@ -313,7 +313,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-03-28T09:13:09+01:00",
+        "update": "2025-03-28T16:12:40+01:00",
         "forecast": [
           {
             "insee": "04008",
@@ -414,7 +414,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-03-28T09:13:09+01:00",
+        "update": "2025-03-28T16:12:40+01:00",
         "forecast": [
           {
             "insee": "04008",
@@ -515,7 +515,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-03-28T09:13:09+01:00",
+        "update": "2025-03-28T16:12:40+01:00",
         "forecast": [
           {
             "insee": "04008",
@@ -616,7 +616,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-03-28T09:13:09+01:00",
+        "update": "2025-03-28T16:12:40+01:00",
         "forecast": [
           {
             "insee": "04008",
@@ -717,7 +717,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-03-28T09:13:09+01:00",
+        "update": "2025-03-28T16:12:40+01:00",
         "forecast": [
           {
             "insee": "04008",
@@ -811,5 +811,5 @@
       }
     ]
   },
-  "retrieved_at": "2025-03-28T12:54:23.537Z"
+  "retrieved_at": "2025-03-28T18:42:16.878Z"
 }
