@@ -10,7 +10,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-07-07T10:12:42+02:00",
+        "update": "2025-07-07T17:10:34+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -20,10 +20,10 @@
             "day": 0,
             "period": 0,
             "datetime": "2025-07-07T02:00:00+0200",
-            "temp2m": 12,
+            "temp2m": 13,
             "wind10m": 20,
             "gust10m": 50,
-            "dirwind10m": 292,
+            "dirwind10m": 291,
             "rr10": 0,
             "rr1": 0,
             "probarain": 10,
@@ -44,17 +44,17 @@
             "datetime": "2025-07-07T08:00:00+0200",
             "temp2m": 12,
             "wind10m": 20,
-            "gust10m": 53,
-            "dirwind10m": 296,
+            "gust10m": 50,
+            "dirwind10m": 293,
             "rr10": 0,
             "rr1": 0,
             "probarain": 10,
-            "weather": 2,
+            "weather": 3,
             "probafrost": 0,
             "probafog": 0,
             "probawind70": 0,
             "probawind100": 0,
-            "gustx": 53
+            "gustx": 50
           },
           {
             "insee": "04008",
@@ -66,69 +66,12 @@
             "datetime": "2025-07-07T14:00:00+0200",
             "temp2m": 20,
             "wind10m": 25,
-            "gust10m": 54,
-            "dirwind10m": 290,
-            "rr10": 0,
-            "rr1": 0,
-            "probarain": 10,
-            "weather": 1,
-            "probafrost": 0,
-            "probafog": 0,
-            "probawind70": 0,
-            "probawind100": 0,
-            "gustx": 54
-          },
-          {
-            "insee": "04008",
-            "cp": 4240,
-            "latitude": 43.962,
-            "longitude": 6.664,
-            "day": 0,
-            "period": 3,
-            "datetime": "2025-07-07T20:00:00+0200",
-            "temp2m": 15,
-            "wind10m": 25,
-            "gust10m": 59,
-            "dirwind10m": 311,
-            "rr10": 0,
-            "rr1": 0,
-            "probarain": 10,
-            "weather": 1,
-            "probafrost": 0,
-            "probafog": 0,
-            "probawind70": 0,
-            "probawind100": 0,
-            "gustx": 59
-          }
-        ]
-      },
-      {
-        "city": {
-          "insee": "04008",
-          "cp": 4240,
-          "name": "Annot",
-          "latitude": 43.962,
-          "longitude": 6.664,
-          "altitude": 1022
-        },
-        "update": "2025-07-07T10:12:42+02:00",
-        "forecast": [
-          {
-            "insee": "04008",
-            "cp": 4240,
-            "latitude": 43.962,
-            "longitude": 6.664,
-            "day": 1,
-            "period": 0,
-            "datetime": "2025-07-08T02:00:00+0200",
-            "temp2m": 11,
-            "wind10m": 20,
             "gust10m": 52,
-            "dirwind10m": 307,
+            "dirwind10m": 293,
             "rr10": 0,
             "rr1": 0,
             "probarain": 10,
-            "weather": 0,
+            "weather": 1,
             "probafrost": 0,
             "probafog": 0,
             "probawind70": 0,
@@ -140,60 +83,16 @@
             "cp": 4240,
             "latitude": 43.962,
             "longitude": 6.664,
-            "day": 1,
-            "period": 1,
-            "datetime": "2025-07-08T08:00:00+0200",
-            "temp2m": 10,
-            "wind10m": 15,
-            "gust10m": 43,
-            "dirwind10m": 298,
-            "rr10": 0,
-            "rr1": 0,
-            "probarain": 10,
-            "weather": 0,
-            "probafrost": 0,
-            "probafog": 0,
-            "probawind70": 0,
-            "probawind100": 0,
-            "gustx": 43
-          },
-          {
-            "insee": "04008",
-            "cp": 4240,
-            "latitude": 43.962,
-            "longitude": 6.664,
-            "day": 1,
-            "period": 2,
-            "datetime": "2025-07-08T14:00:00+0200",
-            "temp2m": 21,
-            "wind10m": 20,
-            "gust10m": 56,
-            "dirwind10m": 319,
-            "rr10": 0,
-            "rr1": 0,
-            "probarain": 10,
-            "weather": 1,
-            "probafrost": 0,
-            "probafog": 0,
-            "probawind70": 0,
-            "probawind100": 0,
-            "gustx": 56
-          },
-          {
-            "insee": "04008",
-            "cp": 4240,
-            "latitude": 43.962,
-            "longitude": 6.664,
-            "day": 1,
+            "day": 0,
             "period": 3,
-            "datetime": "2025-07-08T20:00:00+0200",
-            "temp2m": 14,
-            "wind10m": 20,
+            "datetime": "2025-07-07T20:00:00+0200",
+            "temp2m": 15,
+            "wind10m": 25,
             "gust10m": 58,
-            "dirwind10m": 322,
+            "dirwind10m": 311,
             "rr10": 0,
             "rr1": 0,
-            "probarain": 10,
+            "probarain": 20,
             "weather": 1,
             "probafrost": 0,
             "probafog": 0,
@@ -212,7 +111,108 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-07-07T10:12:42+02:00",
+        "update": "2025-07-07T17:10:34+02:00",
+        "forecast": [
+          {
+            "insee": "04008",
+            "cp": 4240,
+            "latitude": 43.962,
+            "longitude": 6.664,
+            "day": 1,
+            "period": 0,
+            "datetime": "2025-07-08T02:00:00+0200",
+            "temp2m": 11,
+            "wind10m": 20,
+            "gust10m": 53,
+            "dirwind10m": 307,
+            "rr10": 0,
+            "rr1": 0,
+            "probarain": 10,
+            "weather": 0,
+            "probafrost": 0,
+            "probafog": 0,
+            "probawind70": 0,
+            "probawind100": 0,
+            "gustx": 53
+          },
+          {
+            "insee": "04008",
+            "cp": 4240,
+            "latitude": 43.962,
+            "longitude": 6.664,
+            "day": 1,
+            "period": 1,
+            "datetime": "2025-07-08T08:00:00+0200",
+            "temp2m": 10,
+            "wind10m": 20,
+            "gust10m": 44,
+            "dirwind10m": 303,
+            "rr10": 0,
+            "rr1": 0,
+            "probarain": 10,
+            "weather": 0,
+            "probafrost": 0,
+            "probafog": 0,
+            "probawind70": 0,
+            "probawind100": 0,
+            "gustx": 44
+          },
+          {
+            "insee": "04008",
+            "cp": 4240,
+            "latitude": 43.962,
+            "longitude": 6.664,
+            "day": 1,
+            "period": 2,
+            "datetime": "2025-07-08T14:00:00+0200",
+            "temp2m": 20,
+            "wind10m": 25,
+            "gust10m": 55,
+            "dirwind10m": 324,
+            "rr10": 0,
+            "rr1": 0,
+            "probarain": 10,
+            "weather": 1,
+            "probafrost": 0,
+            "probafog": 0,
+            "probawind70": 0,
+            "probawind100": 0,
+            "gustx": 55
+          },
+          {
+            "insee": "04008",
+            "cp": 4240,
+            "latitude": 43.962,
+            "longitude": 6.664,
+            "day": 1,
+            "period": 3,
+            "datetime": "2025-07-08T20:00:00+0200",
+            "temp2m": 15,
+            "wind10m": 20,
+            "gust10m": 56,
+            "dirwind10m": 326,
+            "rr10": 0,
+            "rr1": 0,
+            "probarain": 10,
+            "weather": 1,
+            "probafrost": 0,
+            "probafog": 0,
+            "probawind70": 0,
+            "probawind100": 0,
+            "gustx": 56
+          }
+        ]
+      },
+      {
+        "city": {
+          "insee": "04008",
+          "cp": 4240,
+          "name": "Annot",
+          "latitude": 43.962,
+          "longitude": 6.664,
+          "altitude": 1022
+        },
+        "update": "2025-07-07T17:10:34+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -313,7 +313,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-07-07T10:12:42+02:00",
+        "update": "2025-07-07T17:10:34+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -414,7 +414,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-07-07T10:12:42+02:00",
+        "update": "2025-07-07T17:10:34+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -515,7 +515,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-07-07T10:12:42+02:00",
+        "update": "2025-07-07T17:10:34+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -616,7 +616,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-07-07T10:12:42+02:00",
+        "update": "2025-07-07T17:10:34+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -717,7 +717,7 @@
           "longitude": 6.664,
           "altitude": 1022
         },
-        "update": "2025-07-07T10:12:42+02:00",
+        "update": "2025-07-07T17:10:34+02:00",
         "forecast": [
           {
             "insee": "04008",
@@ -811,5 +811,5 @@
       }
     ]
   },
-  "retrieved_at": "2025-07-07T13:01:36.379Z"
+  "retrieved_at": "2025-07-07T18:44:45.603Z"
 }
